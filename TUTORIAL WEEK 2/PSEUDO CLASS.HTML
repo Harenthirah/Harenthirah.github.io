@@ -1,0 +1,145 @@
+5<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>SAMPLE</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styleshee.css">
+        <style>
+            p:last-child{color: blueviolet;}
+            tr:nth-of-type(even){color: red;}
+            #container{margin-left: auto;margin-right: auto;width: 80%;}
+            form {background-color: rgb(0, 255, 128);}
+            h1{font-family: sans-serif ;font-size: 4em;background-color:beige ; opacity: 50%;text-shadow: 2px 2px #ff0000;}
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div>
+            <p> Paragraph 1</p>
+            <p> Paragraph 2</p>
+            <p> Paragraph 3</p>
+            <p> Paragraph 4</p>
+            <p> Paragraph 5</p>
+        </div>
+        <br> <table>
+            <caption>HOSPITAL OPEN HOURS</caption>
+       <thead>
+        <tr>
+            <th>DAY</th>
+            <th>TIME</th>
+        </tr>
+        </thead>
+        <tr>
+            <td>MONDAY</td>
+            <td>8.00am - 7.00pm</td>
+        </tr>
+        <tr>
+            <td>TUESDAY</td>
+            <td>8.00am - 7.00pm</td>
+        </tr>
+        <tr>
+            <td>WEDNESDAY</td>
+            <td>8.00am - 7.00pm</td>
+        </tr>
+        <tr>
+            <td>THURSDAY</td>
+            <td>8.00am - 7.00pm</td>
+        </tr>
+        <tr>
+            <td>FRIDAY</td>
+            <td>8.00am - 2.30PM</td>
+        </tr>
+        <tr>
+            <td>SATURDAY</td>
+            <td rowspan="2">8.00am - 2.30PM</td>
+        </tr>
+        <tr>
+            <td>SUNDAY</td>
+            
+        </tr>
+       
+        </table>
+        <br>
+        <!--START FORM EXAMPLE-->
+        <h1>SIGN UP FOR OUR LATEST NEWSLETTER</h1>
+        <fieldset><legend>Personal Detail</legend>
+        <form action="instruction.php" method="post">
+            E-mail: <input type="text" name="email" id="TextId" required size="50" maxlength="11" value="example@codemail.com" placeholder="Please enter your email address"><br>
+            Name: <input type="text" placeholder="Enter your name">
+                <br>
+                Telephone Number: <input type="tel" pattern="(0[0-9]{1}(-[0-9]{3}(-[0-9]{4}))))">
+                <br>
+                Comment: <br> <textarea placeholder="Enter the topics You're Intrested"></textarea>
+                <br>
+                Upload Document: <input type="file" accept=".pdf">
+                <br>
+                <h5>Are You a User? Log-in Now!</h5>
+                Id:      <input type="text" name="Id"> <br>
+                Password: <input type="password">
+                <br> <br>
+                Send Confirmation code via:<br>
+                <input type="checkbox"> Email <br>
+                <input type="checkbox"> Phone Number <br>
+                <input type="checkbox"> Authenthicator App 
+                <br> <br>
+
+                Select your Gender: <br>
+                Male<input type="radio" name="gender">
+                Female<input type="radio" name="gender"> <br> <br>
+                <h4>Select User Type</h4>
+                <select size="2" multiple>
+                    <option>ADMIN</option>
+                    <option>SUPER ADMIN</option>
+                    <option>STANDARD</option>
+                    <option>NEW USER</option>
+                </select> 
+                <br>
+                <label for="color">Favorite Color:</label> <input type="text" name="color" id="color" list="colors" >
+                <datalist id="colors">
+                     <option value="red"></option>
+                     <option value="green"></option>
+                     <option value="blue"></option>
+                     <option value="yellow"></option>
+                     <option value="pink"></option>
+                     <option value="black"></option>
+                </datalist> <br>
+                <label for="My Choice">Choose a number between 1 to 100:</label>
+                <br><br>
+                Low <input type="range"        
+                    name="myChoice" 
+                    id="myChoice" 
+                    min="1"       
+                    max="100"> High
+                <br><br>
+                Choose the date you would want the newsletter to be sent
+                <label for="myDate">Choose Date</label>
+                <br><input type="datetime-local" name="myDate" id="myDate" ><br><br>
+                
+                Choose the date you would want the program to execute
+                <label for="myDate">Choose Date</label>
+                <br><input type="color" name="myDate" id="myDate"> <br>
+                
+
+        
+                <br>
+                <input type="Submit" value="Send">
+                <input type="reset" value="Clear">
+
+
+            
+            </fieldset>
+        </form>
+
+
+        <script src="" async defer></script>
+    </body>
+</html>

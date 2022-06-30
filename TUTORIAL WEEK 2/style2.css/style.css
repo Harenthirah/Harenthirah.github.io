@@ -1,0 +1,10 @@
+table, td, th { border: 0.1px solid rgb(196, 29, 29);background-color: azure; }
+form {background-color: #148831;font-family: 'Times New Roman', Times, serif, sans-serif; width: 350px;padding: 10px;}
+label { float: left;clear: left;
+	display: block;width: 100px; 
+	text-align: right; 
+	padding-right: 10px;
+	margin-top: 10px; }
+input, textarea { margin-top: 10px; 
+                  display: block;}
+input[type="submit"] { margin-left: 110px; }
